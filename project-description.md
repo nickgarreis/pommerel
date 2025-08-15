@@ -103,7 +103,7 @@ Mir ist klar, dass ein Unternehmen wie "HÖVELER HOLZMANN" mit 101 Mitarbeitern 
 Könnte ich Sie dahingehend in den nächsten Tagen mal kontaktieren und meine Ideen präsentieren?
 
 Mit freundlichen Grüßen
-Reinhard Müller
+Reinhard Pommerel
 Pommerel
 ```
 
