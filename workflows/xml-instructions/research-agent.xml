@@ -182,18 +182,6 @@
         </Example>
     </Examples>
 
-    <IntegrationPoints>
-        <N8NWorkflow>
-            <InputFrom>Lead data from Supabase via n8n workflow</InputFrom>
-            <OutputTo>outreach_agent for message generation</OutputTo>
-            <DataFlow>Structured JSON output for next agent</DataFlow>
-        </N8NWorkflow>
-        <Dependencies>
-            <Model>Opus 4.1 via OpenRouter for research analysis</Model>
-            <Tool>Tavily for web searching</Tool>
-        </Dependencies>
-    </IntegrationPoints>
-
     <SuccessCriteria>
         <FoundingDateFound>Successfully determined company age or founding year</FoundingDateFound>
         <EmployeeCountFound>Identified current employee number or size category</EmployeeCountFound>

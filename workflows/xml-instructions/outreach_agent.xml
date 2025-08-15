@@ -197,21 +197,6 @@ Reinhard Müller</followup_email>
         <ActionableOutcome>Emails end with specific meeting request</ActionableOutcome>
     </SuccessCriteria>
 
-    <IntegrationPoints>
-        <N8NWorkflow>
-            <InputFrom>research-agent output via n8n workflow</InputFrom>
-            <OutputTo>Supabase message updates via structured parser</OutputTo>
-            <DataFlow>JSON formatted for Structured Output Parser</DataFlow>
-        </N8NWorkflow>
-        <DatabaseUpdates>
-            <Email>Updates messages table where channel='email' with body and subject</Email>
-        </DatabaseUpdates>
-        <Dependencies>
-            <Model>Opus 4.1 via OpenRouter for generation</Model>
-            <Parser>Structured Output Parser for JSON formatting</Parser>
-        </Dependencies>
-    </IntegrationPoints>
-
     <OutputFormat>
         <Language>German</Language>
         <Structure>JSON matching n8n Structured Output Parser schema</Structure>
